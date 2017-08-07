@@ -52,7 +52,7 @@ Run this command (this command will show the help). To run the code under Window
 
 #INSTANCES
 
-Some instances are provided for testing the framework. Optimal values for theses instances can be found in the file this [link](https://github.com/biblik/mkp-framework/blob/master/instances/optimal_solutions.txt).
+Some instances are provided for testing the framework. Optimal values for theses instances can be found in the file this [link](https://github.com/biblik/rcpsp-framework/blob/master/instances/optimal_solutions.txt).
 
 ## Benchmark
 
