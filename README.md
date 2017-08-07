@@ -1,16 +1,16 @@
-#INTRODUCTION
+# INTRODUCTION
 
 This is a JAVA framework for the Resource Constrained Project Scheduling Problem (RCPSP).
 
 This framework was created by Fabien Léhuédé, Damien Prot and Axel Grimault for pedagogic issues at [Institut Mines Télécom Atlantique](https://www.imt-atlantique.fr/).
 
-#INSTALLATION
+# INSTALLATION
 
 The project is available on github : [https://github.com/biblik/rcpsp-framework](https://github.com/biblik/rcpsp-framework).
 
 The project is under licence [GNU General Public License, version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 
-###Under ECLIPSE
+### Under ECLIPSE
 
 Follow these steps :
 
@@ -19,16 +19,16 @@ Follow these steps :
 3. Import a project (General->Existing Projects into Workspace) (*click on next*)
 4. Select archive file (select the archive you downloaded at step 1). Under projects, select the mkp-framework (*click on Finish*)
 
-#RUNNING
+# RUNNING
 
-###Under ECLIPSE
+### Under ECLIPSE
 
 Run a java application. You must specify arguments.
 **Run**: `-help` for help.
 
-###Command line
+### Command line
 
-####Linux
+#### Linux
 
 Run this command (this command will show the help).
 
@@ -39,7 +39,7 @@ Run this command (this command will show the help).
 3. Run the program  
 `java -cp "./../bin/:./../lib/plot.jar" -Djava.library.path=./../lib/ rcpsp.Main -help `
 
-####Windows
+#### Windows
 
 Run this command (this command will show the help). To run the code under Windows, you must have a [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) available.
 
@@ -50,7 +50,7 @@ Run this command (this command will show the help). To run the code under Window
 3. Run the program  
 `java -cp "./../bin/:./../lib/plot.jar" -Djava.library.path="./../lib/" rcpsp.Main -help `
 
-#INSTANCES
+# INSTANCES
 
 Some instances are provided for testing the framework. Optimal values for theses instances can be found in the file this [link](https://github.com/biblik/rcpsp-framework/blob/master/instances/optimal_solutions.txt).
 
@@ -63,7 +63,7 @@ The script produces two files:
 1. standardOutput.txt : the standard output of the framework. `System.out.print` command in JAVA.
 2. errorOutput.txt : the error output of the framework. `System.err.print` command in JAVA.
 
-####Linux
+#### Linux
 
 The script executes the framework over all instances. In a terminal:
 
@@ -72,7 +72,7 @@ The script executes the framework over all instances. In a terminal:
 2. Run the script  
 `bash scriptUNIX.sh`
 
-####Windows
+#### Windows
 
 The script executes the framework over all instances. In a terminal:
 
@@ -82,6 +82,6 @@ The script executes the framework over all instances. In a terminal:
 `scriptWINDOWS.bat`
 
 
-#DOCUMENTATION
+# DOCUMENTATION
 
 A [doxygen](http://www.stack.nl/~dimitri/doxygen/) documentation of the code is provided under the folder `/doc`.
