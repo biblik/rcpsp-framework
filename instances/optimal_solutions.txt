@@ -1,18 +1,18 @@
-j301_1	43	Optimal
-j302_1	47	Optimal
-j303_1	47	Optimal
-j304_1	62	Optimal
-j305_1	39	Optimal
-j306_1	48	Optimal
-j307_1	60	Optimal
-j308_1	53	Optimal
-j309_1	49	Optimal
-j1201_1	105	Upper bound
-j1202_1	109	Optimal
-j1203_1	125	Optimal
-j1204_1	97	Optimal
-j1205_1	112	Optimal
-j1206_1	84	Optimal
-j1207_1	117	Optimal
-j1208_1	109	Optimal
-j1209_1	112	Optimal
+j301_1	43	      Optimal
+j302_1	38	      Optimal
+j303_1	72	      Optimal
+j304_1	49	      Optimal
+j305_1	53	      Optimal
+j306_1	59	      Optimal
+j307_1	55	      Optimal
+j308_1	44	      Optimal
+j309_1	83	      Optimal
+j1201_1	105/104	  Upper Bound / Lower Bound
+j1202_1	87	      Optimal
+j1203_1	80	      Optimal
+j1204_1	74	      Optimal
+j1205_1	92	      Optimal
+j1206_1	144/132	  Upper Bound / Lower Bound
+j1207_1	102/97    Upper Bound / Lower Bound
+j1208_1	95	      Optimal
+j1209_1	88	      Optimal
