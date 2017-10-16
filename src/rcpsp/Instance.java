@@ -94,7 +94,7 @@ public class Instance {
 	 */
 	public int getCapacityResource(int i) throws Exception {
 		if ((i < 0) || (i >= m_nbResources))
-			throw new Exception("Error: " + i + " n\'is not an index of resource between 0 and " + (m_nbResources - 1));
+			throw new Exception("Error: " + i + " is not an index of resource between 0 and " + (m_nbResources - 1));
 		return m_capacityResource[i];
 	}
 
@@ -105,21 +105,21 @@ public class Instance {
 	 */
 	public int getDurationActivity(int j) throws Exception {
 		if ((j < 0) || (j >= m_nbActivities))
-			throw new Exception("Error: " + j + " n\'is not an index of activity between 0 and " + (m_nbActivities - 1));
+			throw new Exception("Error: " + j + " is not an index of activity between 0 and " + (m_nbActivities - 1));
 		return m_durationActivity[j];
 	}
 
 	/**
-	 * @param j Index of the resource (index must be between 0 and the number of resources -1).
-	 * @param i Index of the activity (index must be between 0 and the number of activities -1).
+	 * @param i Index of the resource (index must be between 0 and the number of resources -1).
+	 * @param j Index of the activity (index must be between 0 and the number of activities -1).
 	 * @return The consumption of resource i for activity j.
 	 * @throws Exception Throw an exception if indices i and j are not valid.
 	 **/
 	public Integer getConsumptionResourceActivity(int i, int j) throws Exception {
 		if ((i < 0) || (i >= m_nbResources))
-			throw new Exception("Error: " + i + " n\'is not an index of resource between 0 and " + (m_nbResources - 1));
+			throw new Exception("Error: " + i + " is not an index of resource between 0 and " + (m_nbResources - 1));
 		if ((j < 0) || (j >= m_nbActivities))
-			throw new Exception("Error: " + j + " n\'is not an index of activity between 0 and " + (m_nbActivities - 1));
+			throw new Exception("Error: " + j + " is not an index of activity between 0 and " + (m_nbActivities - 1));
 		return m_consumptionResourceActivity[i][j];
 	}
 
@@ -351,11 +351,12 @@ public class Instance {
 			out.print("Activity "+j+" :");
 			for(int i = 0; i < m_nbResources; i++)
 			{
-				if(m_consumptionResourceActivity[j][i] > 0)
+				if(m_consumptionResourceActivity[i][j] > 0)
 				{
-					out.print("#"+i+"("+m_consumptionResourceActivity[j][i]+")");
+					out.print(" #"+i+"("+m_consumptionResourceActivity[i][j]+") ");
 				}
 			}
+			out.println();
 			
 		}
 		out.println();

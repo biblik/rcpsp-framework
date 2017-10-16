@@ -127,7 +127,7 @@ public class Solution {
 	}
 
 	/**
-	 * Initialize the consumption of the resource Initialise l'utilisation de la ressource <code>i</code> à la valeur <code>val</code> pour la date <code>date</code>.
+	 * Initialize the consumption of the resource
 	 *
 	 * @param i Index of resource
 	 * @param time The time for which one wants to set the consumption
@@ -222,7 +222,7 @@ public class Solution {
 	{
 		int nbActivities = m_instance.getNbActivities();
 		if ((j < 0) || (j >= nbActivities))
-			throw new Exception("Error: " + j + " n\'is not an index of activity between 0 and " + (nbActivities - 1));
+			throw new Exception("Error: " + j + " is not an index of activity between 0 and " + (nbActivities - 1));
 
 		// If activity was already set to a time, we removed it
 		if(m_beginTimeActivity[j] != null)
@@ -257,7 +257,7 @@ public class Solution {
 	{
 		int nbActivities = m_instance.getNbActivities();
 		if ((j < 0) || (j >= nbActivities))
-			throw new Exception("Error: " + j + " n\'is not an index of activity between 0 and " + (nbActivities - 1));
+			throw new Exception("Error: " + j + " is not an index of activity between 0 and " + (nbActivities - 1));
 
 		if (m_beginTimeActivity[j] != null)
 		{
@@ -294,7 +294,7 @@ public class Solution {
 	{
 		int nbActivities = m_instance.getNbActivities();
 		if ((j < 0) || (j >= nbActivities))
-			throw new Exception("Error: " + j + " n\'is not an index of activity between 0 and " + (nbActivities - 1));
+			throw new Exception("Error: " + j + " is not an index of activity between 0 and " + (nbActivities - 1));
 
 		// Check resources constraints
 		int nbResources = m_instance.getNbResources();

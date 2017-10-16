@@ -14,7 +14,6 @@ var searchData=
   ['getnbresources',['getNbResources',['../classrcpsp_1_1Instance.html#afa3f58138e2bab92a406f189e3d26c1f',1,'rcpsp::Instance']]],
   ['getobjectivevalue',['getObjectiveValue',['../classrcpsp_1_1Solution.html#a67e0f378bb9262a4f5a9376b0b8c0b21',1,'rcpsp::Solution']]],
   ['getprecedence',['getPrecedence',['../classrcpsp_1_1Instance.html#a9a28e05339b8171453501512c839fafe',1,'rcpsp::Instance']]],
-  ['getrandomhex',['getRandomHex',['../classplot_1_1RandomColor.html#a55a51275b50f22a91f44ecee832a2d7c',1,'plot::RandomColor']]],
   ['getsolution',['getSolution',['../classrcpsp_1_1RCPSPSolver.html#a7189fa11fccb340a357f1c53fa1841b9',1,'rcpsp::RCPSPSolver']]],
   ['gettimelimit',['getTimeLimit',['../classrcpsp_1_1RCPSPSolver.html#a865188c8bfd885ae78e8e0b22eff4a75',1,'rcpsp::RCPSPSolver']]]
 ];

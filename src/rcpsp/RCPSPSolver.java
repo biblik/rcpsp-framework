@@ -19,6 +19,9 @@
 
 package rcpsp;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * 
  * This class is the place where you should enter your code and from which you can create your own objects.
@@ -141,7 +144,7 @@ public class RCPSPSolver {
 		timeElapsed = System.currentTimeMillis() - t;
 		System.err.println("Time for naive heuristic : " + timeElapsed);
 		m_solution.print(System.err);
-		System.err.flush();
+		System.err.flush();		
 	}
 
 }
